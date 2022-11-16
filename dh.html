@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<title>首页导航|雨沫</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="https://s1.ax1x.com/2022/11/11/zCGxM9.png">
+		<script> 
+                document.oncontextmenu=new Function("return false") 
+                document.onselectstart=new Function("return false") 
+                </script>
+		<script>
+		 document.body.onkeydown  = function(e){
+             var keyCode = e.keyCode || e.which || e.charCode;
+              var ctrlKey = e.ctrlKey || e.metaKey;
+              if(ctrlKey && (keyCode == 83 || keyCode == 85 || keyCode == 73)) {
+                  e.preventDefault();
+                  return false;
+          }
+          else if(ctrlKey && (keyCode == 83 || keyCode == 85 || keyCode == 67)) {
+              e.preventDefault();
+              return false;         
+              }else if(keyCode && keyCode == 123){
+                  return false;
+              }
+         }
+	
+		</script> 
+	</head>
+	<body>
+		<ul>
+		
+			<li style="--i:6;"><a href="test.html">博客|雨沫</a></li>
+			<li style="--i:5;"><a href="dongman.html">动漫导航|雨沫</a></li>
+			<li style="--i:4;"><a href="http://jlh.125ks.cn/cxk/bccxk/">小游戏</a></li>
+		</ul>
+		 
+	</body>
+</html>
